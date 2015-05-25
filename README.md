@@ -24,11 +24,28 @@ This project conbines with Raspberry Pi and some scripts, to provide rapid-start
 - Store all private key in secure area(RPi), and destroy when used.
 - Can add 3G/4G connection and Batteries, in case of "power cut" or "net cut"
 
+身為一個憂國憂民正直有為的年輕人，偶而遇到有人來查水錶也是很正常低（？）
+為了保護~~糟糕物~~機密資料不要外流，一個酷炫的自爆按鈕是一個科技宅該有的基本行頭！
+
+這裏我們示範如何用簡短的程式碼，與Raspberry pi快速的完成一個酷炫而且真的會爆的自爆按鈕，支援以下幾大功能：
+
+- 快速有效：敲下這個按鈕的瞬間，所有機敏資料直接GG
+- 鑰匙解鎖：除了避免被你家的貓踩到，看起來更炫，還有自爆前的警報聲
+- 支援遠端系統：只要是能SSH到的設備，就算在地球另一端，一樣給他爆～
+- 支援Linux：其他系統的支援還在開發中～
+- 高速銷毀：敲下去的瞬間完成隨即摧毀檔案系統與磁碟表頭，大幅提高恢復難度
+- 完整銷毀：只要有足夠的時間，資料將會被摧毀到無法恢復的程度
+- 安全性：所有私鑰儲存於獨立的RPi中，外界難以入侵，且可設定在自爆後一併摧毀。
+- 強固性：可以另加3G/4G or 電池，斷電斷網路都不怕！
+
+## sample button ##
+
+![sample button](https://raw.githubusercontent.com/sakura26/killallbtn/master/pics/button_sample.JPG)
 
 ## how it works ##
 
 1. Unlock the key, the alarm sounds
-2. Hit the button, the button connected to RPi
+2. Hit the button
 3. RPi deamon triggers kill procedure, connecting to servers in list, send kill.sh script
 4. Server runs the kill script, disk wipes and os hangs
 
@@ -44,6 +61,7 @@ This project conbines with Raspberry Pi and some scripts, to provide rapid-start
 ## install instruction ##
 
 ### Prepare hardware: ###
+
 you will need a Rasperberry Pi, you can get one [here](https://www.raspberrypi.org) (you may want to take SD card too)
 ofcourse, you will need to setup the OS too, you can [Download RASPBIAN](https://www.raspberrypi.org/downloads/), and [install instruction here](https://www.raspberrypi.org/documentation/installation/installing-images/)
 
@@ -57,7 +75,9 @@ here is the ingredients:
 - 1x "Big Red" button
 - some single-core wires or Dupont wires
 
-You can follow the ![circuit.png](https://raw.githubusercontent.com/sakura26/killallbtn/master/circuit.png) to connect the ingredients together.
+You can follow the circuit.png to connect the ingredients together.
+![circuit.png](https://raw.githubusercontent.com/sakura26/killallbtn/master/circuit.png)
+![circuit_sample.png](https://raw.githubusercontent.com/sakura26/killallbtn/master/pics/circuit_sample.jpg)
 
 If you don't know where the GND\5V+\Pin24\Pin26 should connect, google [raspberry pi pinout](https://www.google.com.tw/search?q=raspberry+pi+pinout&es_sm=91&tbm=isch&tbo=u&source=univ&sa=X&ei=ZR5hVc-KC4Xg8gXgwYGICQ&ved=0CB0QsAQ#imgrc=1TnjLqridDLpxM%253A%3Bpto2jAOMLfe_LM%3Bhttp%253A%252F%252Fwww.megaleecher.net%252Fsites%252Fdefault%252Ffiles%252Fimages%252Fraspberry-pi-rev2-gpio-pinout.jpg%3Bhttp%253A%252F%252Fwww.megaleecher.net%252FRaspberry_Pi_GPIO_Pinout_Helper%3B1050%3B733) may helps you.
 
@@ -122,4 +142,5 @@ DONT DO ANY ILLEGAL THINGS WITH THIS PROJECT!
 ### License ###
 
 This content is released under the BSD & CC License.
+
 The sound effect comes from [Google Audio Library](https://www.youtube.com/audiolibrary/music) "Spaceship Alarm".
