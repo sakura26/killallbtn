@@ -157,11 +157,11 @@ and.. prevent someone get your privte keys after you hit the button, you can ena
 
 ## Notice ##
 
-DONT DO ANY ILLEGAL THINGS WITH THIS PROJECT!
-
+DONT DO ANY ILLEGAL THINGS WITH THIS PROJECT!  
 請勿使用在非法用途！
 
 ### License ###
 
-This content is released under the BSD & CC License.  
+This code content is released under the BSD License.  
+Documents released under CC-BY License  
 The sound effect comes from [Google Audio Library](https://www.youtube.com/audiolibrary/music) "Spaceship Alarm".
