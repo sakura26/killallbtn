@@ -44,3 +44,11 @@ IND Workshop
 * 焊接工具組
 * WIFI AP
 * 自爆用主機(執行指令會大喊我已經死了)
+
+## Raspberry pi的更多應用
+
+* [用RPi裝XBMC做多媒體中心](https://www.youtube.com/watch?v=1L5GCmXgHK8)（影片播放啥的，電視盒能做的他都能做）
+* [RetroPie遊戲模擬器](https://www.youtube.com/watch?v=Qpqjy87g0Y8)
+  * <https://dotblogs.com.tw/bowwowxx/2015/06/03/151483>
+* [如何把RPi zero改造成gameboy](https://www.youtube.com/watch?v=dV-W23lONI4)
+* [另一個](https://www.youtube.com/watch?v=ux9lXBexw0o)
