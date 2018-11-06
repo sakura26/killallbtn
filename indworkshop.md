@@ -3,9 +3,9 @@ IND Workshop
 
 ## 講義
 
-講義 <README.md>
+[講義](README.md)
 
-投影片 <https://slides.com/sakura26/self-terminator>
+[投影片](https://slides.com/sakura26/self-terminator)
 
 ## 材料套組
 
