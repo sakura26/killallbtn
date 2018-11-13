@@ -81,6 +81,7 @@ IND Workshop
 * 執行程式碼
   * ```python /home/pi/indemo.py &```
 * 觀察輸出的LED與音效
+* 如果都沒有問題，嘗試焊接到電路板，並組合至箱子中
 
 ## Raspberry pi的更多應用
 
